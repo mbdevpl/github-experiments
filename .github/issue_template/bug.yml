@@ -1,0 +1,45 @@
+name: Bug Report
+description: File a bug report
+body:
+  - type: textarea
+    id: version
+    attributes:
+      label: Version
+      description: |
+        What version of the project are you using?
+        examples:
+          - 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Describe your environment, including the operating system and the version of Python you're using.
+        examples:
+          - **OS**: Ubuntu 22.04
+          - **Python**: CPython 3.11
+      value: |
+          - OS:
+          - Python:
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: |
+        Describe what happened, and compare it to what did you expect to happen.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Please paste any relevant log output.
+      render: shell
