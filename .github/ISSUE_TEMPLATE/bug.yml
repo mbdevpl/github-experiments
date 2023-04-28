@@ -23,7 +23,7 @@ body:
       value: |
           - OS:
           - Python:
-      render: markdown
+      render: Markdown
     validations:
       required: true
   - type: textarea
@@ -34,7 +34,7 @@ body:
         Describe what happened, and compare it to what did you expect to happen.
       placeholder: Tell us what you see!
       value: "A bug happened!"
-      render: markdown
+      render: Markdown
     validations:
       required: true
   - type: textarea
@@ -42,4 +42,4 @@ body:
     attributes:
       label: Logs
       description: Please paste any relevant log output.
-      render: shell
+      render: sh
