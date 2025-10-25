@@ -8,7 +8,7 @@ image by reference
 
 [github_logo]:https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png
 
-![github_logo][github_logo]
+![imagebyref][github_logo]
 
 
 ## references
