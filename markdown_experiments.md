@@ -1,15 +1,28 @@
 # Markdown experiments
 
-image by URL:
+image from URL:
 
-![imagebyurl](https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png)
+![imagefromurl](https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png)
 
-image by reference
+image from URL by reference:
 
 [github_logo]:https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png
 
-![imagebyref][github_logo]
+![imagefromurlbyref1][github_logo]
 
+![imagebfromurlyref2][github_logo]
+
+image from URL by forward reference:
+
+![imagefromurlbyforwardref1][github_logo2]
+
+[github_logo2]:https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png
+
+embedded image:
+
+![embe
+
+embedded image by reference:
 
 ## references
 
