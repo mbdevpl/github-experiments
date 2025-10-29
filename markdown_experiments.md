@@ -36,4 +36,6 @@ embedded image by reference:
 
 ## references
 
-https://docs.andre601.ch/GitHub-Markdown/github/general/
+<https://docs.andre601.ch/GitHub-Markdown/github/general/>
+
+<https://superuser.com/q/1199393/466910>
